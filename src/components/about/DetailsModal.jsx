@@ -44,7 +44,7 @@ const DetailsModal = ({ title, items, titleColor }) => {
 
                         <div className="modalDescription">
                           {itemDescription}<br/>
-                          {links ? <a href={links} target="_blank">{"More details ->"}</a> : null}
+                          {links ? <a href={links} target="_blank" rel="noreferrer">{"More details ->"}</a> : null}
                         </div>
                       </div>
                     </div>
