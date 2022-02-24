@@ -5,12 +5,6 @@ const Form = () => {
   const [messageAfterSubmit, setMessageAfterSubmit] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-
-  useEffect(() => {
-    console.log(process.env)
-    console.log(emailService, emailTemplate, emailUser)
-  }, [])
-
   const {
     register,
     handleSubmit,
