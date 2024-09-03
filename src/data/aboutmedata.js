@@ -198,7 +198,6 @@ export const personalInfoContent = [
   { meta: "Birthday", metaInfo: "06/1996" },
   { meta: "Nationality", metaInfo: "Finnish" },
   { meta: "Freelance", metaInfo: "Available" },
-  { meta: "phone", metaInfo: "+358505548516" },
   { meta: "Email", metaInfo: "joel.kallio@gmail.com" },
   { meta: "languages", metaInfo: "Finnish, English" },
 ];
